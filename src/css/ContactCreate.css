@@ -1,0 +1,29 @@
+.ContactCreate {
+  display: flex;
+  flex-direction: column;
+}
+
+.ContactCreate input {
+  padding: 0.5rem;
+}
+
+.ContactCreate input+input {
+  margin-top: 0.7rem;
+}
+
+.ContactCreate button {
+  margin-top: 0.7rem;
+  border-radius: 0;
+  background-color: #ffa500;
+  color: black;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.ContactCreate button:hover {
+  background-color: #ffa503;
+}
+
+.ContactCreate button:active {
+  background-color: darkorange;
+}
