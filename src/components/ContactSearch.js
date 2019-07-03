@@ -1,12 +1,14 @@
 import React from 'react';
 import '../css/ContactSearch.css';
 
-const ContactSearch = (props) => {
+const ContactSearch = ({ input, onChange }) => {
   return (
     <div className="ContactSearch">
       <input
         name='keyword'
         placeholder='Search'
+        value={input}
+        onChange={onChange}
       />
     </div>
   )

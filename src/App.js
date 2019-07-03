@@ -1,7 +1,7 @@
 import React from 'react';
 import Template from './components/Template';
 import ContactCreateContainer from './containers/ContactCreateContainer';
-import ContactSearch from './components/ContactSearch';
+import ContactSearchContainer from './containers/ContactSearchContainer';
 import ContactList from './components/ContactList';
 
 const App = (props) => {
@@ -12,7 +12,7 @@ const App = (props) => {
           <ContactCreateContainer />
         )}
         search={(
-          <ContactSearch />
+          <ContactSearchContainer />
         )}
       >
         <ContactList />
