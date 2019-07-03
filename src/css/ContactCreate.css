@@ -11,6 +11,8 @@
   margin-top: 0.7rem;
 }
 
+.ContactCreate span { color: red; }
+
 .ContactCreate button {
   margin-top: 0.7rem;
   border-radius: 0;

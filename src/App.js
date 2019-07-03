@@ -1,6 +1,6 @@
 import React from 'react';
 import Template from './components/Template';
-import ContactCreate from './components/ContactCreate';
+import ContactCreateContainer from './containers/ContactCreateContainer';
 import ContactSearch from './components/ContactSearch';
 import ContactList from './components/ContactList';
 
@@ -9,7 +9,7 @@ const App = (props) => {
     <div className="App">
       <Template
         create={(
-          <ContactCreate />
+          <ContactCreateContainer />
         )}
         search={(
           <ContactSearch />
