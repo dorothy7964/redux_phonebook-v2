@@ -2,7 +2,7 @@ import React from 'react';
 import Template from './components/Template';
 import ContactCreateContainer from './containers/ContactCreateContainer';
 import ContactSearchContainer from './containers/ContactSearchContainer';
-import ContactList from './components/ContactList';
+import ContactListContainer from './containers/ContactListContainer';
 
 const App = (props) => {
   return (
@@ -15,7 +15,7 @@ const App = (props) => {
           <ContactSearchContainer />
         )}
       >
-        <ContactList />
+        <ContactListContainer />
       </Template>
     </div>
   )

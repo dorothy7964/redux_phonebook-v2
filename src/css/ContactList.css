@@ -23,6 +23,18 @@
   font-weight: 600;
 }
 
+.ContactList .edits input {
+  padding: 0.4rem;
+  width: 11rem;
+  border: none;
+  border-bottom: 1px solid darkorange;
+  font-size: 1rem;
+}
+
+.ContactList .edits input+input {
+  margin-top: 0.3rem;
+}
+
 .ContactList .buttons {
   display: flex;
   margin-left: 1rem;
